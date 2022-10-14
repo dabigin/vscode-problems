@@ -1,19 +1,5 @@
-{
-	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
+
 	{
 		"!!!": "{<!DOCTYPE html>}+html[lang=${1}${lang}].no-js>{<!-- TODO: Check lang attribute --> }+(head>meta:utf+meta:vp+{}+title{${1:🛑 Change me}}+{}+(script[type=\"module\"]>{document.documentElement.classList.replace('no-js', 'js');})+{}+link:css+link:print+{}+meta[property=\"og:title\"][content=\"${1:🛑 Change me}\"]+meta[name=\"description\"][content=\"${2:🛑 Change me (up to ~155 characters)}\"]+meta[property=\"og:description\"][content=\"${2:🛑 Change me (up to ~155 characters)}\"]+meta[property=\"og:image\"][content=\"${1:https://}\"]+meta[property=\"og:locale\"][content=\"${1:en_GB}\"]+meta[property=\"og:type\"][content=\"${1:website}\"]+meta[name=\"twitter:card\"][content=\"${1:summary_large_image}\"]+meta[property=\"og:url\"][content=\"${1:https://}\"]+{<!-- TODO: Change social media stuff --> }+{}+link[rel=\"canonical\"][href=\"${1:https://}\"]+{<!-- TODO: Change canonical link --> }+{}+link[rel=\"icon\"][href=\"${1:/favicon.ico}\"]+link[rel=\"icon\"][href=\"${1:/favicon.svg}\"][type=\"image/svg+xml\"]+link[rel=\"apple-touch-icon\"][href=\"${1:/apple-touch-icon.png}\"]+link[rel=\"manifest\"][href=\"${1:/my.webmanifest}\"]+{}+meta[name=\"theme-color\"][content=\"${2:#FF00FF}\"])+body>page+{}+script:src[type=\"module\"]"
 	  }
 	  
-}
